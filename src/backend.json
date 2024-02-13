@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "N6IoPQeAN3gZwyhKOeiPsZNgoxa2": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["name"]
+    },
+    "age": {
+      "type": "string"
+    },
+    "food": {
+      "type": "string"
+    },
+    "highScore": {
+      "type": "integer"
+    },
+    "major": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "sOiedsNbnFNcHq18qtxscdh63Op2": {
+      "type": "object",
+      "properties": {
+        "age": {
+          "type": "string"
+        },
+        "food": {
+          "type": "string"
+        },
+        "major": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["age", "food", "major", "name"]
+    }
+  },
+  "required": ["age", "food", "highScore", "major", "name"]
+}
