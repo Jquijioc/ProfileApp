@@ -55,6 +55,39 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "9c317731-a3f8-4eba-ad14-4e6c3c2ff3cd",
+                "Y": 532.59375,
+                "RelativeX": 0,
+                "RelativeY": 532,
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "35.06666666666667%",
+                    "top": "79.84913793103448%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "35.06666666666667%",
+                    "top": "79.84913793103448%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "6e3dfece-6159-4a2e-acd5-7e1e47d025f1",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner1"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -286,16 +319,16 @@
                 "onTintColor": "rgba(208, 215, 231, 100)",
                 "thumbTintColor": "rgba(93, 122, 252, 100)",
                 "offThumbTintColor": "rgba(248, 249, 251, 100)",
-                "Height": 21,
-                "Width": 42,
-                "X": 223,
-                "Y": 298,
-                "RelativeX": 223,
-                "RelativeY": 298,
+                "Height": 22,
+                "Width": 44,
+                "X": 224,
+                "Y": 299,
+                "RelativeX": 224,
+                "RelativeY": 299,
                 "ResizeMode": "STRETCH",
                 "ParentId": "9c317731-a3f8-4eba-ad14-4e6c3c2ff3cd",
                 "position": "absolute",
-                "edgeOffsets": 298.99999999999994,
+                "edgeOffsets": 299,
                 "style": {
                     "position": "absolute",
                     "left": "42.8%",
@@ -319,8 +352,8 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 46,
-                "Width": 141,
+                "Height": 48,
+                "Width": 143,
                 "Visible": true,
                 "X": 20,
                 "Y": 287,
@@ -366,7 +399,7 @@
                 },
                 "ParentId": "9c317731-a3f8-4eba-ad14-4e6c3c2ff3cd",
                 "position": "absolute",
-                "edgeOffsets": 287.99999999999994,
+                "edgeOffsets": 287.66668701171875,
                 "children": "Save these details?"
             },
             "children": [],
